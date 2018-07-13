@@ -12,14 +12,12 @@ export class SideNavComponent implements OnInit {
 
   ngOnInit() {
     this.menus = [{
-      title: 'User',
-      link: '/userlist',
-      translate: 'user'
+      title: 'sideNav.user',
+      link: '/userlist'
     },
     {
-      title: 'Contact Center',
-      link: '/cclist',
-      translate: 'contact-center'
+      title: 'sideNav.cc',
+      link: '/cclist'
     }];
    }
 

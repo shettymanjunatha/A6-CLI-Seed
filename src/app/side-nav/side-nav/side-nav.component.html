@@ -1,12 +1,14 @@
   <!-- Sidebar -->
-  <div class="row col-12">
+  <div class="row">
+      <div class="col-xs-12 col-md-12">
     <nav class="navbar navbar-dark">
         <ul class="nav row">
             <li class="nav-item col-12" *ngFor="let menu of menus" [routerLink]="menu.link" routerLinkActive="active">
-                {{ menu.title}}
+                {{ menu.title | translate}}
             </li>
         </ul>
     </nav>
+</div>
 </div>
 
 

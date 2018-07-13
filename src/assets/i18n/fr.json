@@ -1,0 +1,23 @@
+{
+    "topNav" : {
+        "header" : "Angulaire 6 graines"
+    },
+    "sideNav": {
+        "user": "utilisateur",
+        "cc": "Centre d'appels"
+    },
+    "user": {
+        "user": "utilisateur",
+        "firstName": "Prénom",
+        "lastName": "Nom de famille",
+        "phoneNumber": "Numéro de téléphone",
+        "extension": "Extension"
+    },
+    "cc": {
+        "cc": "Centre d'appels",
+        "firstName": "Prénom",
+        "lastName": "Nom de famille",
+        "phoneNumber": "Numéro de téléphone",
+        "extension": "Extension"
+    }
+}

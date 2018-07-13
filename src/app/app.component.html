@@ -1,10 +1,15 @@
-<app-top-nav></app-top-nav>
 <div class="container-fluid">
-    <div class="row col-12">
-        <div class="col-4">
+    <div class="row">
+        <div class="col-xs-12 col-md-12">
+            <app-top-nav></app-top-nav>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-12 col-md-3">
             <app-side-nav></app-side-nav>
         </div>
-        <div class="col-8">
+        <div class="clearfix visible-xs-block"></div>
+        <div class="col-xs-12 col-md-9">
             <div class="router-content">
                 <router-outlet></router-outlet>
             </div>

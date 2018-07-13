@@ -1,4 +1,11 @@
 {
+    "topNav" : {
+        "header" : "Angular 6 Seed"
+    },
+    "sideNav": {
+        "user": "User",
+        "cc": "Contact Center"
+    },
     "user": {
         "user": "User",
         "firstName": "First Name",

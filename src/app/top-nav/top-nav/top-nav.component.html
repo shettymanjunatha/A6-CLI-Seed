@@ -1,5 +1,21 @@
 <nav class="navbar navbar-dark bg-primary mb-4">
   <div class="container">
-    <a href="#" class="navbar-brand">Angular Lazy loading APP</a>
+    <div class="row col-md-12">
+      <div class="col-xs-12 col-md-8">
+          <a href="#" class="navbar-brand mt-2">{{ 'topNav.header' | translate}}</a>
+      </div>
+      <div class="clearfix visible-xs-block"></div>
+      <div class="col-xs-12 col-md-4">
+        <div class="float-md-right mt-2">
+              <label id="lblSelect">
+                <select #langSelect (change)="translate.use(langSelect.value)" id="selectPointOfInterest" >
+                  <option *ngFor="let lang of translate.getLangs()" [value]="lang" [selected]="lang === translate.currentLang">
+                    <span>{{ lang }} </span>
+                    </option>
+                </select>
+              </label>
+            </div>
+        </div>
+      </div>
   </div>
 </nav>

@@ -1,0 +1,8 @@
+ /*SELECT ELEMENT WITH UNICODE SYMBOL: DOWN-ARROW (&#x25bc;)*/
+ select#selectPointOfInterest {
+    width : 80pt;
+    height : 30pt;
+    line-height : 30pt;
+    padding-right : 20pt;
+    text-indent : 4pt;
+ }
