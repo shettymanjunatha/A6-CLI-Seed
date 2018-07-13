@@ -1,0 +1,16 @@
+{
+    "user": {
+        "user": "User",
+        "firstName": "First Name",
+        "lastName": "Last Name",
+        "phoneNumber": "Phone Number",
+        "extension": "Extension"
+    },
+    "cc": {
+        "cc": "Contact Center",
+        "firstName": "First Name",
+        "lastName": "Last Name",
+        "phoneNumber": "Phone Number",
+        "extension": "Extension"
+    }
+}

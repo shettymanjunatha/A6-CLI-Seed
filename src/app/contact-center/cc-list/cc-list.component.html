@@ -1,0 +1,29 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h1 class="mb-4">{{'cc.cc' | translate}}</h1>
+          </div>
+      </div>
+    <div class="row">
+      <div class="col-md-12">
+          <table class="table">
+              <thead>
+                <tr>
+                  <th>{{'cc.firstName' | translate}}</th>
+                <th>{{'cc.lastName' | translate}}</th>
+                <th>{{'cc.phoneNumber' | translate}}</th>
+                <th>{{'cc.extension' | translate}}</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr *ngFor="let user of ccList">
+                  <td [textContent]="user.firstName"></td>
+                  <td [textContent]="user.lastName"></td>
+                  <td [textContent]="user.phoneNumber"></td>
+                  <td [textContent]="user.extension"></td>
+                </tr>
+              </tbody>
+            </table>
+      </div>
+    </div>
+  </div>

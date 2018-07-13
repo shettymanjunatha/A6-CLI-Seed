@@ -1,0 +1,29 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h1 class="mb-4">{{'user.user' | translate}}</h1>
+          </div>
+      </div>
+  <div class="row">
+    <div class="col-md-12">
+        <table class="table">
+            <thead>
+              <tr>
+                <th>{{'user.firstName' | translate}}</th>
+                <th>{{'user.lastName' | translate}}</th>
+                <th>{{'user.phoneNumber' | translate}}</th>
+                <th>{{'user.extension' | translate}}</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr *ngFor="let user of userList">
+                <td [textContent]="user.firstName"></td>
+                <td [textContent]="user.lastName"></td>
+                <td [textContent]="user.phoneNumber"></td>
+                <td [textContent]="user.extension"></td>
+              </tr>
+            </tbody>
+          </table>
+    </div>
+  </div>
+</div>

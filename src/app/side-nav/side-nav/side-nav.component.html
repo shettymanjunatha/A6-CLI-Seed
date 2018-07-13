@@ -1,0 +1,13 @@
+  <!-- Sidebar -->
+  <div class="row col-12">
+    <nav class="navbar navbar-dark">
+        <ul class="nav row">
+            <li class="nav-item col-12" *ngFor="let menu of menus" [routerLink]="menu.link" routerLinkActive="active">
+                {{ menu.title}}
+            </li>
+        </ul>
+    </nav>
+</div>
+
+
+      
